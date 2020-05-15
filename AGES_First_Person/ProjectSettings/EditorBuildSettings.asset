@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LoadFinal.unity
     guid: bf2b9418437f3c04a9cd292b645a399c
   - enabled: 1
+    path: Assets/Scenes/FinalApt.unity
+    guid: 1caff68b14f66254ab00c4613baa5db2
+  - enabled: 1
     path: Assets/Scenes/GameChoose2.unity
     guid: dac19ae26870ed94fb20ad09158530c0
   m_configObjects: {}
