@@ -11,6 +11,11 @@ TagManager:
   - Mountain
   - CheckCol
   - Computer
+  - Pickup
+  - Pickup1
+  - Pickup2
+  - Pickup3
+  - Pickup4
   layers:
   - Default
   - TransparentFX

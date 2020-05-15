@@ -11,11 +11,16 @@ public class CamLook : MonoBehaviour
     [SerializeField] Transform PlayerB;
     [SerializeField] GameObject ComCan;
     [SerializeField] Text ComText;
-
+    public bool canpickup = false;
     public bool canlook = true;
     public bool comsight = false;
     public bool phonesight = false;
     public bool testbool = false;
+
+    public bool bu1 = false;
+    public bool bu2 = false;
+    public bool bu3 = false;
+    public bool bu4 = false;
 
     float xRot = 0f;
     // Start is called before the first frame update
@@ -78,6 +83,42 @@ public class CamLook : MonoBehaviour
                 }
 
 
+            }
+
+            if (hit.collider.tag == "Pickup1")
+            {
+                canpickup = true;
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    bu1 = true;
+                }
+            }
+
+            if (hit.collider.tag == "Pickup2")
+            {
+                canpickup = true;
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    bu2 = true;
+                }
+            }
+
+            if (hit.collider.tag == "Pickup3")
+            {
+                canpickup = true;
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    bu3 = true;
+                }
+            }
+
+            if (hit.collider.tag == "Pickup4")
+            {
+                canpickup = true;
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    bu4 = true;
+                }
             }
             else
             {
